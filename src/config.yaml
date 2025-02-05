@@ -18,9 +18,9 @@ metadata:
   openGraph:
     site_name: ThisDigital
     images:
-      - url: '~/assets/images/default.png'
-        width: 1200
-        height: 628
+      - url: '~/assets/images/td_badge_navygreen.png'
+        width: 300
+        height: 300
     type: website
   twitter:
     handle: '@thisdigital'
