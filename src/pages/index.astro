@@ -15,25 +15,15 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 const metadata = {
   title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
   ignoreTitleTemplate: true,
+  showRssFeed: false,
+  isDark: true,
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn more', href: '#features' },
-    ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
-  >
+  <!-- <Hero image={{ src: '~/assets/images/td_badge_navygreen.png', alt: 'This Digital' }}>
     <Fragment slot="title">
       Free template for <span class="hidden xl:inline">creating websites with</span>
       <span class="text-accent dark:text-white highlight"> Astro 5.0</span> + Tailwind CSS
@@ -48,7 +38,7 @@ const metadata = {
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
       Blogs.
     </Fragment>
-  </Hero>
+  </Hero> -->
 
   <!-- Note Widget ******************* -->
 
@@ -56,7 +46,7 @@ const metadata = {
 
   <!-- Features Widget *************** -->
 
-  <Features
+  <!-- <Features
     id="features"
     tagline="Features"
     title="What you get with AstroWind"
@@ -99,9 +89,9 @@ const metadata = {
         icon: 'tabler:bulb',
       },
     ]}
-  />
+  /> -->
 
-  <!-- Content Widget **************** -->
+  <!-- Content Widget ****************
 
   <Content
     isReversed
@@ -137,9 +127,9 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
-  <!-- Content Widget **************** -->
+  <!-- Content Widget ****************
 
   <Content
     isAfterContent
@@ -174,9 +164,9 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
-  <!-- Content Widget **************** -->
+  <!-- Content Widget ****************
 
   <Content
     isReversed
@@ -212,9 +202,9 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
-  <!-- Steps Widget ****************** -->
+  <!-- Steps Widget ******************
 
   <Steps
     title="Get your dream website up and running in no time with AstroWind."
@@ -246,9 +236,9 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  /> -->
 
-  <!-- Features2 Widget ************** -->
+  <!-- Features2 Widget **************
 
   <Features2
     title="Most used widgets"
@@ -310,9 +300,9 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Features2>
+  </Features2> -->
 
-  <!-- HighlightedPosts Widget ******* -->
+  <!-- HighlightedPosts Widget *******
 
   <BlogLatestPosts
     title="Find out more content in our Blog"
@@ -320,9 +310,9 @@ const metadata = {
                         Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
                         Astro is a very interesting technology. Thanks.
                 `}
-  />
+  /> -->
 
-  <!-- FAQs Widget ******************* -->
+  <!-- FAQs Widget *******************
 
   <FAQs
     title="Frequently Asked Questions"
@@ -361,9 +351,9 @@ const metadata = {
           "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
       },
     ]}
-  />
+  /> -->
 
-  <!-- Stats Widget ****************** -->
+  <!-- Stats Widget ******************
 
   <Stats
     stats={[
@@ -372,9 +362,9 @@ const metadata = {
       { title: 'Forks', amount: '10.3K' },
       { title: 'Users', amount: '48.4K' },
     ]}
-  />
+  /> -->
 
-  <!-- CallToAction Widget *********** -->
+  <!-- CallToAction Widget ***********
 
   <CallToAction
     actions={[
@@ -395,5 +385,5 @@ const metadata = {
       Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
       waste more time! :P
     </Fragment>
-  </CallToAction>
+  </CallToAction> -->
 </Layout>

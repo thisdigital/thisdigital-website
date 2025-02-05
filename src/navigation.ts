@@ -1,6 +1,10 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+//import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
+  links: [],
+};
+
+/*export const headerData = {
   links: [
     {
       text: 'Homes',
@@ -117,7 +121,13 @@ export const headerData = {
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
+*/
 
+export const footerData = {
+  links: [],
+};
+
+/*
 export const footerData = {
   links: [
     {
@@ -181,3 +191,4 @@ export const footerData = {
     Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
   `,
 };
+*/
